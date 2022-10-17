@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_71cbf31e8e33f9de9dcc18742cdb670d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.3.0/leaflet-dvf.markers.min.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_71cbf31e8e33f9de9dcc18742cdb670d" ></div>
+        
+</body>
+<script>    
+    
+            var map_71cbf31e8e33f9de9dcc18742cdb670d = L.map(
+                "map_71cbf31e8e33f9de9dcc18742cdb670d",
+                {
+                    center: [24.97909744353748, 121.44908164206109],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_69c042c87cffffad1003d1494b822be2 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_71cbf31e8e33f9de9dcc18742cdb670d);
+        
+    
+            var regular_polygon_marker_5dfcfb9a59e41fa3c898ba77576d319c = new L.RegularPolygonMarker(
+                [24.97666, 121.4477],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 100, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_71cbf31e8e33f9de9dcc18742cdb670d);
+        
+    
+        var popup_7f71cddcecd40357ccce1ba35e82d610 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36ded9ebc9c75da8f43db8cb93950f8e = $(`<div id="html_36ded9ebc9c75da8f43db8cb93950f8e" style="width: 100.0%; height: 100.0%;">斬龍山遺址文化公園2.0 0.0/12.0</div>`)[0];
+                popup_7f71cddcecd40357ccce1ba35e82d610.setContent(html_36ded9ebc9c75da8f43db8cb93950f8e);
+            
+        
+
+        regular_polygon_marker_5dfcfb9a59e41fa3c898ba77576d319c.bindPopup(popup_7f71cddcecd40357ccce1ba35e82d610)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_e227e043bdc5a42dbc0a11b0c53faa99 = new L.RegularPolygonMarker(
+                [24.95816, 121.41504],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 100, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_71cbf31e8e33f9de9dcc18742cdb670d);
+        
+    
+        var popup_0ba71a00e3518b300ae5728a0f655011 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4172b221f403f94ed0b8b395f04f4041 = $(`<div id="html_4172b221f403f94ed0b8b395f04f4041" style="width: 100.0%; height: 100.0%;">頂埔市場2.0 0.0/6.0</div>`)[0];
+                popup_0ba71a00e3518b300ae5728a0f655011.setContent(html_4172b221f403f94ed0b8b395f04f4041);
+            
+        
+
+        regular_polygon_marker_e227e043bdc5a42dbc0a11b0c53faa99.bindPopup(popup_0ba71a00e3518b300ae5728a0f655011)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_d8720c05f144692013f0e4b78952598b = new L.RegularPolygonMarker(
+                [24.98367, 121.45423],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 100, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_71cbf31e8e33f9de9dcc18742cdb670d);
+        
+    
+        var popup_00f9501bf82fc7ce45ed6cc839b9accc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea8ee23e4bd3eedeb9f5feca962e71de = $(`<div id="html_ea8ee23e4bd3eedeb9f5feca962e71de" style="width: 100.0%; height: 100.0%;">土城綜合體育場2.0 0.0/12.0</div>`)[0];
+                popup_00f9501bf82fc7ce45ed6cc839b9accc.setContent(html_ea8ee23e4bd3eedeb9f5feca962e71de);
+            
+        
+
+        regular_polygon_marker_d8720c05f144692013f0e4b78952598b.bindPopup(popup_00f9501bf82fc7ce45ed6cc839b9accc)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_1a858c350fb9d8445dc2eb55fbb8bfae = new L.RegularPolygonMarker(
+                [24.978918316048684, 121.44275033207957],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 100, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_71cbf31e8e33f9de9dcc18742cdb670d);
+        
+    
+        var popup_53f8a94ae02baeed22e3f36f2655ad64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89867c50b700179e9c540c6525f153eb = $(`<div id="html_89867c50b700179e9c540c6525f153eb" style="width: 100.0%; height: 100.0%;">員和公園2.0 0.0/6.0</div>`)[0];
+                popup_53f8a94ae02baeed22e3f36f2655ad64.setContent(html_89867c50b700179e9c540c6525f153eb);
+            
+        
+
+        regular_polygon_marker_1a858c350fb9d8445dc2eb55fbb8bfae.bindPopup(popup_53f8a94ae02baeed22e3f36f2655ad64)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_06a0436acf3160d826024dc83aa051c0 = new L.RegularPolygonMarker(
+                [24.9691, 121.44024],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 100, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_71cbf31e8e33f9de9dcc18742cdb670d);
+        
+    
+        var popup_7e4df99234ee9bf22c65b26fbf340913 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d80bd6499f717b8d859d7b62c02700f9 = $(`<div id="html_d80bd6499f717b8d859d7b62c02700f9" style="width: 100.0%; height: 100.0%;">金城忠義路口2.0 0.0/11.0</div>`)[0];
+                popup_7e4df99234ee9bf22c65b26fbf340913.setContent(html_d80bd6499f717b8d859d7b62c02700f9);
+            
+        
+
+        regular_polygon_marker_06a0436acf3160d826024dc83aa051c0.bindPopup(popup_7e4df99234ee9bf22c65b26fbf340913)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_f443a0afbfc6751a0ad53e9dca8ccac1 = new L.RegularPolygonMarker(
+                [24.97811, 121.43937],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 100, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_71cbf31e8e33f9de9dcc18742cdb670d);
+        
+    
+        var popup_25e50f9d2246320bd2a2e63373bb6ecd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_153acebe107e8ccc6745ae227333257f = $(`<div id="html_153acebe107e8ccc6745ae227333257f" style="width: 100.0%; height: 100.0%;">長風社區2.0 0.0/8.0</div>`)[0];
+                popup_25e50f9d2246320bd2a2e63373bb6ecd.setContent(html_153acebe107e8ccc6745ae227333257f);
+            
+        
+
+        regular_polygon_marker_f443a0afbfc6751a0ad53e9dca8ccac1.bindPopup(popup_25e50f9d2246320bd2a2e63373bb6ecd)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_724fc1a93acd2d81b48947c1958c5f54 = new L.RegularPolygonMarker(
+                [24.97475, 121.45873],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 100, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_71cbf31e8e33f9de9dcc18742cdb670d);
+        
+    
+        var popup_5f86c30d99b0f756b1e525a281f5741e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9bcbdc7350fa9e2e20c4f60611e0835 = $(`<div id="html_b9bcbdc7350fa9e2e20c4f60611e0835" style="width: 100.0%; height: 100.0%;">青雲路451巷口(紐約艾美社區)2.0 0.0/5.0</div>`)[0];
+                popup_5f86c30d99b0f756b1e525a281f5741e.setContent(html_b9bcbdc7350fa9e2e20c4f60611e0835);
+            
+        
+
+        regular_polygon_marker_724fc1a93acd2d81b48947c1958c5f54.bindPopup(popup_5f86c30d99b0f756b1e525a281f5741e)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_24e59b68bc8e9d7fc724edb3eac8bc50 = new L.RegularPolygonMarker(
+                [24.976958449938596, 121.44580101471448],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 100, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_71cbf31e8e33f9de9dcc18742cdb670d);
+        
+    
+        var popup_72674566a08dec7c86467458e68d812c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08eaee29be70ecb4a65b878b358212a8 = $(`<div id="html_08eaee29be70ecb4a65b878b358212a8" style="width: 100.0%; height: 100.0%;">學士學府路口(大苑社區)2.0 0.0/6.0</div>`)[0];
+                popup_72674566a08dec7c86467458e68d812c.setContent(html_08eaee29be70ecb4a65b878b358212a8);
+            
+        
+
+        regular_polygon_marker_24e59b68bc8e9d7fc724edb3eac8bc50.bindPopup(popup_72674566a08dec7c86467458e68d812c)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_2b109113ba95ef279a1ec5e3805ac2bc = new L.RegularPolygonMarker(
+                [24.99003, 121.4472],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 100, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_71cbf31e8e33f9de9dcc18742cdb670d);
+        
+    
+        var popup_eb31e5102b03a37136ff111aeb946b30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3501c5d7445b2a8b243e0d52a83840a4 = $(`<div id="html_3501c5d7445b2a8b243e0d52a83840a4" style="width: 100.0%; height: 100.0%;">中華裕華街口2.0 0.0/13.0</div>`)[0];
+                popup_eb31e5102b03a37136ff111aeb946b30.setContent(html_3501c5d7445b2a8b243e0d52a83840a4);
+            
+        
+
+        regular_polygon_marker_2b109113ba95ef279a1ec5e3805ac2bc.bindPopup(popup_eb31e5102b03a37136ff111aeb946b30)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_b74985faa49a5a4aa1ccdcf45ba85b9c = new L.RegularPolygonMarker(
+                [24.99018, 121.46882],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 100, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_71cbf31e8e33f9de9dcc18742cdb670d);
+        
+    
+        var popup_ebfd430b1f6117bb7d04e4892c928dd6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6a37fcef3eb2e740c8a674283f2c8a3 = $(`<div id="html_a6a37fcef3eb2e740c8a674283f2c8a3" style="width: 100.0%; height: 100.0%;">延和社區公園2.0 0.0/13.0</div>`)[0];
+                popup_ebfd430b1f6117bb7d04e4892c928dd6.setContent(html_a6a37fcef3eb2e740c8a674283f2c8a3);
+            
+        
+
+        regular_polygon_marker_b74985faa49a5a4aa1ccdcf45ba85b9c.bindPopup(popup_ebfd430b1f6117bb7d04e4892c928dd6)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_e368d5bd36dd7ce1de46f871c400267b = new L.RegularPolygonMarker(
+                [24.98816, 121.45655],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 100, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_71cbf31e8e33f9de9dcc18742cdb670d);
+        
+    
+        var popup_21aaa1aba50fdc41bd0a643c66bf1d71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b379a0ec84f70a35ded5706b9e23580 = $(`<div id="html_3b379a0ec84f70a35ded5706b9e23580" style="width: 100.0%; height: 100.0%;">廣福派出所2.0 0.0/9.0</div>`)[0];
+                popup_21aaa1aba50fdc41bd0a643c66bf1d71.setContent(html_3b379a0ec84f70a35ded5706b9e23580);
+            
+        
+
+        regular_polygon_marker_e368d5bd36dd7ce1de46f871c400267b.bindPopup(popup_21aaa1aba50fdc41bd0a643c66bf1d71)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_ce688d58d77e2cf376bd085e3ae4db6a = new L.RegularPolygonMarker(
+                [24.982, 121.46547],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 100, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_71cbf31e8e33f9de9dcc18742cdb670d);
+        
+    
+        var popup_e1721f9509b99aa55d754efbeb073582 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3309d6c8a6683e415c9401b13824036a = $(`<div id="html_3309d6c8a6683e415c9401b13824036a" style="width: 100.0%; height: 100.0%;">清水高中2.0 5.0/5.0</div>`)[0];
+                popup_e1721f9509b99aa55d754efbeb073582.setContent(html_3309d6c8a6683e415c9401b13824036a);
+            
+        
+
+        regular_polygon_marker_ce688d58d77e2cf376bd085e3ae4db6a.bindPopup(popup_e1721f9509b99aa55d754efbeb073582)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_514f80980d97d8fbca433c76f623d0e3 = new L.RegularPolygonMarker(
+                [24.98157, 121.45616],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 100, "opacity": 1.0, "radius": 10, "rotation": 0, "stroke": true, "weight": 3}
+            ).addTo(map_71cbf31e8e33f9de9dcc18742cdb670d);
+        
+    
+        var popup_d631aae387f6e67450849937cb69e43c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6cacb00a0d1a204a62a0791f0e0a092 = $(`<div id="html_b6cacb00a0d1a204a62a0791f0e0a092" style="width: 100.0%; height: 100.0%;">裕民路口(清水路)2.0 0.0/15.0</div>`)[0];
+                popup_d631aae387f6e67450849937cb69e43c.setContent(html_b6cacb00a0d1a204a62a0791f0e0a092);
+            
+        
+
+        regular_polygon_marker_514f80980d97d8fbca433c76f623d0e3.bindPopup(popup_d631aae387f6e67450849937cb69e43c)
+        ;
+
+        
+    
+</script>
